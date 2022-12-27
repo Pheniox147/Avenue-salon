@@ -594,7 +594,7 @@
 /** pricing **/
  .pricing {
      padding-top: 90px;
-     background: url(../images/pricing_bg.jpg);
+     background: black;
      background-size: 100% 100%;
      background-repeat: no-repeat;
 }
@@ -689,6 +689,9 @@
  .bbbb {
     padding-left: 35px;
      font-weight: 500;
+}
+.border_bg {
+    background: url(/images/border.png);
 }
 /** end pricing **/
 /** our barbers **/
@@ -976,7 +979,7 @@
      font-weight: 500;
 }
  .yellow_bg {
-     background-color: #7f4774;
+     background-color:rgb(134, 14, 88);
      padding: 40px 0px;
 }
  .yellow_bg .title {
