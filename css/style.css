@@ -329,8 +329,8 @@
      background: #000;
 }
  .button_user a:hover, .button_user a:focus, .button_user a.active {
-     background: #7f4774;
-     border-color: #7f4774;
+     background: #FF08A7;
+     border-color: #FF08A7;
      color: #fff;
 }
  #sidebarCollapse {
@@ -690,8 +690,11 @@
     padding-left: 35px;
      font-weight: 500;
 }
-.border_bg {
-    background: url(/images/border.png);
+.upcoming-events-outer {
+    padding: 400px 0 200px;
+    margin-top: -100px;
+    background: url(/images/border.png) no-repeat;
+    background-size: cover;
 }
 /** end pricing **/
 /** our barbers **/
@@ -741,18 +744,18 @@
      opacity: 1;
 }
  .form-control {
-     border: rgb(134, 14, 88) solid 2px;
+     border: #FF08A7 solid 2px;
      border-radius: inherit;
      margin-bottom: 25px;
      padding: 12px 20px;
-     background:rgb(134, 14, 88);
+     background:#FF08A7;
      color: #fff;
      font-family: poppins;
 }
  .form-control:focus {
      box-shadow: inherit;
-     border: rgb(134, 14, 88) solid 2px !important;
-     background: rgb(134, 14, 88);
+     border: #FF08A7 solid 2px !important;
+     background: #FF08A7;
 }
  #search_bar {
      color: #fff !important;
@@ -760,19 +763,19 @@
 }
  .textarea {
      font-family: poppins;
-     border: rgb(134, 14, 88)solid 2px;
+     border: #FF08A7 solid 2px;
      margin-bottom: 25px;
      padding: 15px 20px;
      width: 100%;
      padding-top: 29px;
-     background: rgb(134, 14, 88);
+     background: #FF08A7;
 }
  .send {
      font-family: poppins;
      float: left;
      margin: 0 auto;
      display: block;
-     background: rgb(134, 14, 88);
+     background: #FF08A7;
      color: #fff;
      max-width: 165px;
      padding: 13px 0px;
@@ -872,14 +875,15 @@
      box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
  #sidebar.active {
-     left: 0;
+     left: 0 ;
+     background: black;
 }
  #dismiss {
      width: 35px;
      height: 35px;
      line-height: 34px;
      text-align: center;
-     background: #111;
+     background: #000;
      position: absolute;
      top: 10px;
      right: 10px;
@@ -930,11 +934,11 @@
 }
  #sidebar ul li a:hover {
      color: #fff;
-     background: #7f4774;
+     background: #FF08A7;
 }
  #sidebar ul li.active > a, a[aria-expanded="true"] {
      color: #fff;
-     background: #7f4774;
+     background: #FF08A7;
 }
  a[data-toggle="collapse"] {
      position: relative;
@@ -979,7 +983,7 @@
      font-weight: 500;
 }
  .yellow_bg {
-     background-color:rgb(134, 14, 88);
+     background-color:#FF08A7;
      padding: 40px 0px;
 }
  .yellow_bg .title {
