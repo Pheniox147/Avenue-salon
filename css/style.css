@@ -612,11 +612,15 @@
  .mar_bottom {
     padding-right: 0;
 }
+.pricing .pricing_img{
+    align-content: center;
+}
  .pricing .pricing_img figure {
      margin:0;
 }
  .pricing .pricing_img figure img {
-     width: 90%;
+     width: 75%;
+     height: 60%;
      /*border-radius:50%;*/
 }
  .pricing .pricing_box {
@@ -627,10 +631,14 @@
  .pricing .pricing_box .list {
      border-style: dashed;
      color: #FF08A4;
-     padding: 18% 0px;
-     height: 100%;
+     padding:18% 0px;
+     padding-top: 45px;
+     height: 90%;
      border-width: 1px;
      float: left;
+}
+.pricing .pricing_box .list h1{
+    margin-bottom: 30px;
 }
  .pricing .pricing_box .list ul {
      float: left;
