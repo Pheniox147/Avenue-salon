@@ -617,6 +617,7 @@
 }
  .pricing .pricing_img figure img {
      width: 90%;
+     /*border-radius:50%;*/
 }
  .pricing .pricing_box {
      background:white;
@@ -692,15 +693,15 @@
      font-weight: 500;
 }
 .bg-header {
-    padding: 400px 0 200px;
+    padding: 250px 0 200px;
     margin-top: -100px;
     background: url(/images/bghead.png) no-repeat;
     background-size: cover;
 }
 .upcoming-events-outer {
-    padding: 400px 0 200px;
-    margin-top: -100px;
-    background: url(/images/bgfoot.png) no-repeat;
+    padding: 0px 0 0px;
+    margin-top: 0px;
+    background: url(/images/footbg.png) no-repeat;
     background-size: cover;
 }
 /** end pricing **/
