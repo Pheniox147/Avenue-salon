@@ -173,7 +173,7 @@
      font-weight: 400;
      position: relative;
      letter-spacing: -0.5px;
-     color: #7f4774;
+     color:#ff08a7;
      border-left: solid #38c8a8 10px;
      padding-left: 15px;
 }
@@ -196,7 +196,7 @@
 }
  .small_main_heading h2 {
      padding: 2px 0 20px 0;
-     color: #7f4774;
+     color: #ff08a7;
      font-weight: 400;
      font-size: 28px;
      background-image: url('../images/fevicon.png');
@@ -205,17 +205,29 @@
      letter-spacing: -0.5px;
 }
  .small_main_heading h2 strong {
-     color: #7f4774;
+     color: #ff08a7;
      font-weight: 600;
 }
+ .about .about_box button{
+    color: #FF08A4;
+    font-size: 17px;
+    line-height: 29px;
+    background: transparent;
+    border: #FF08A4 solid 1px;
+    padding: 12px 40px;
+    display: inline-block;
+    float: left;
+    margin-right: 23px;
+    margin-top: 30px 
+}
  .main_bt {
-     background: #7f4774;
+     background: #ff08a7;
      color: #fff;
      padding: 8px 25px 8px 20px;
      float: left;
      font-size: 15px;
      font-weight: 300;
-     border-left: solid #7f4774 5px;
+     border-left: solid #ff08a7 5px;
      border-radius: 0;
 }
  a.readmore_bt {
@@ -224,8 +236,8 @@
      text-decoration: underline !important;
 }
  .main_bt:hover, .main_bt:focus {
-     background: #7f4774;
-     border-left: solid #7f4774 5px;
+     background: #ff08a7;
+     border-left: solid #ff08a7 5px;
      color: #fff;
 }
  .margin_top_50 {
@@ -476,7 +488,7 @@
 }
  .text_box a:hover {
      color: #000;
-     background: #7f4774;
+     background: #ff08a7;
      border: #7f4774 solid 1px;
 }
 /** about **/
@@ -492,11 +504,12 @@
  .about .about_box span {
      font-size: 17px;
      line-height: 28px;
-     color: #7f4774;
+     color: #ff08a7;
      font-weight: bold;
      padding-bottom: 10px;
      display: block;
 }
+ 
  .about .about_box h2 {
      font-size: 50px;
      line-height: 50px;
@@ -511,18 +524,18 @@
      font-weight: 400;
 }
  .about .about_box a {
-     color: #7f4774;
+     color: #ff08a7;
      font-size: 17px;
      line-height: 29px;
      background: transparent;
-     border: #7f4774 solid 1px;
+     border: #ff08a7 solid 1px;
      padding: 12px 40px;
      display: inline-block;
 }
  .about .about_box a:hover {
      color: #fff;
-     background: #d300ef;
-     border: #7f4774 solid 1px;
+     background: #ff08a7;
+     border: #ff08a7 solid 1px;
 }
  .about .about_img figure {
      margin: 0;
@@ -533,7 +546,7 @@
 /** end about **/
 /** service **/
  .service {
-    background: #7f4774;
+    background: #ff08a7;
      padding: 60px 0px;
 }
  .service .ourheading {
@@ -726,7 +739,7 @@
      text-align: center;
 }
  .product_blog_cont h4 {
-     color: #7f4774;
+     color: #FF08A7;
      font-size: 20px;
      line-height: 20px;
      font-weight: 500;
@@ -749,7 +762,7 @@
      padding-bottom: 0px;
 }
  .white {
-     color: #7f4774;
+     color: #FF08A7;
      font-weight: 500;
 }
  #white_coloe {
@@ -818,6 +831,11 @@
  .footer .address {
      text-align: center;
 }
+.footer .address li {
+  display: inline-flex;
+  padding-right: 20px;
+  padding-left: 30px;
+}
  .footer .address h3 {
      color: #000;
      text-transform: uppercase;
@@ -848,10 +866,10 @@
      font-weight: 500;
 }
  ul.lik li img:hover {
-     color: #7f4774;
+     color: #FF08A7;
 }
  .copyright {
-     background: #7f4774;
+     background: #FF08A7;
      margin-top: 90px;
 }
  .copyright p {
@@ -984,7 +1002,7 @@
 }
  a.download {
      background: #fff;
-     color: #7f4774;
+     color: #FF08A7;
 }
  a.article, a.article:hover {
      background: #7f4774 !important;
@@ -1024,4 +1042,4 @@
      color: #fff;
      font-weight: 500;
 }
- 
+#more {display: none;}

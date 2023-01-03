@@ -23,9 +23,29 @@
     <link rel="stylesheet" href="css/responsive.css">
     <!-- awesome fontfamily -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+      <script>
+        function myFunction() {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+        
+          if (dots.style.display === "none") {
+            dots.style.display = "inline";
+            btnText.innerHTML = "Read more"; 
+            moreText.style.display = "none";
+          } else {
+            dots.style.display = "none";
+            btnText.innerHTML = "Read less"; 
+            moreText.style.display = "inline";
+          }
+        }
+        </script>
+        
 </head>
 <!-- body -->
 
@@ -60,12 +80,6 @@
                     <li>
                         <a href="pricing.html">Pricing</a>
                     </li>
-
-                    <li>
-                        <a href="barbers.html">Our Barbers</a>
-
-                    </li>
-
                     <li>
                         <a href="contact.html">Contact Us</a>
                     </li>
@@ -81,14 +95,14 @@
                     <div class="row">
                         <div class="col-md-3">
                             <div class="full">
-                                <a class="logo" href="index.html"><img src="images/logo.png" alt="#" /></a>
+                                <a class="logo" href="index.html"><img src="images/logo.jpeg" alt="#" /></a>
                             </div>
                         </div>
                         <div class="col-md-9">
                             <div class="full">
                                 <div class="right_header_info">
                                     <ul>
-                                        <li class="dinone"><img style="margin-right: 15px;margin-left: 15px;" src="images/phone_icon.png" alt="#"><a href="#">8297962656</a></li>
+                                        <li class="dinone"><img style="margin-right: 15px;margin-left: 15px;" src="images/phone_icon.png"  alt="#"><a href="#">8297962656</a></li>
                                         <li class="dinone"><img style="margin-right: 15px;" src="images/mail_icon.png" alt="#"><a href="#">shoukathali271004@gmail.com</a></li>
                                         <li class="button_user"> <a class="button" href="#">Book now</a></li>
                                         <li>
@@ -127,8 +141,8 @@
                             <div class="about_box">
                                 <span>Welcome to Our Shop</span>
                                 <h2>About<strong class="white"> Us</strong></h2>
-                                <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many deskt op publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their</p>
-                                <a href="#">Read more</a>
+                                <p>Avenue Family Salon was set up by Mr. Ramana Murthy Athava with the help of his young and disciplined son, Mr. Chaitanya Athava. This salon didn't happen in a day or two, but took years of experience and proper planning. Mr. Ramana Murthy Athava had a sales experience of 15 years in various different Oraganisations. And he always had a passion to start something of his own. With the help of his son, he picked up Avenue Family Salon with great dedication and later, his son took the entire responsibility to run the salon when he was pursuing his Engineering 3rd year. At such a young age and <span id="dots">...</span><span id="more" style="font-weight:normal; color: #000;"> without any prior experience in this industry, he struggled a lot initially. But he managed to achieve success with the help of his hardworking mother, passionate and professional staff members who always worked for the growth of the salon. He strongly believes that Avenue salon wouldn't have been possible without his father's dedication, friends' and staff members' complete guidance and support. His father always treated his staff as his own family and he follows his footsteps. Avenue Family Salon is an army of dedicated beauty professionals and known by its 100% result-oriented beauty services.</span></p>
+                                <button onclick="myFunction()" id="myBtn">Read more</button>
                             </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
@@ -157,6 +171,8 @@
                             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
                             <li data-target="#myCarousel" data-slide-to="1"></li>
                             <li data-target="#myCarousel" data-slide-to="2"></li>
+                            <li data-target="#myCarousel" data-slide-to="3"></li>
+                            <li data-target="#myCarousel" data-slide-to="4"></li>
                         </ol>
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -167,22 +183,22 @@
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
                                                     <figure><img src="images/ser1.png"></figure>
-                                                    <h3>Clean Shave</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                                    <h3>HAIR CUT</h3>
+                                                    <p>Male,Female,Child,Shave,Beard Trim,Split end removal,Ironing,Thong rod..</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
                                                     <figure><img src="images/ser.png"></figure>
-                                                    <h3> Haircut Styles</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                                    <h3>OIL MASSAGE</h3>
+                                                    <p>Matrix oil massage,L'Oreal oil massage,Regular oil,face massage</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
                                                     <figure><img src="images/ser3.png"></figure>
-                                                    <h3>Face Masking</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                                    <h3>HAIR SPA</h3>
+                                                    <p>Matrix spa,L'Oreal spa,Mythic Spa,Anti-dandruff,Anti-hairfall with Aminexil</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -197,22 +213,22 @@
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
                                                     <figure><img src="images/ser1.png"></figure>
-                                                    <h3>Clean Shave</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                                    <h3>HAIR COLORING</h3>
+                                                    <p>Male color,Female root touchup,Global hair color</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
                                                     <figure><img src="images/ser.png"></figure>
-                                                    <h3> Haircut Styles</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                                    <h3>Threading</h3>
+                                                    <p>Eye brow,Chin,Upper lip,Fore head,Side,Full face</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
                                                     <figure><img src="images/ser3.png"></figure>
-                                                    <h3>Face Masking</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                                    <h3>FACIAL</h3>
+                                                    <p>Fruit, Silver, Pearl, Lotus, Gold ,Chocolate, Wine, Diamond</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -227,23 +243,72 @@
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
                                                     <figure><img src="images/ser1.png"></figure>
-                                                    <h3>Clean Shave</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                                    <h3>O3+FACIAL</h3>
+                                                    <p>O3+Facial+Whitening Ample,Powdered mark+De tan</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
                                                     <figure><img src="images/ser.png"></figure>
-                                                    <h3> Haircut Styles</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                                    <h3>BLEACH&D-TAN</h3>
+                                                    <p>Face, Neck, Under arms, Legs, Feet, Hands</p>
                                                 </div>
                                             </div>
                                             <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
                                                 <div class="service_box">
                                                     <figure><img src="images/ser3.png"></figure>
-                                                    <h3>Face Masking</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur cing elit, sed do eiusmod tempor</p>
+                                                    <h3>D-TAN</h3>
+                                                    <p>Face, Neck, Hands, Legs, Under arms, Feet</p>
                                                 </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                                <div class="service_box">
+                                                    <figure><img src="images/ser1.png"></figure>
+                                                    <h3>CLEAN UP</h3>
+                                                    <p>Fuit,Silver,Gold,Chocolate,O3,Wine</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                                <div class="service_box">
+                                                    <figure><img src="images/ser.png"></figure>
+                                                    <h3>PEDICURE</h3>
+                                                    <p>Basic,French,Lotus,O3</p>
+                                                </div>
+                                            </div>
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                                <div class="service_box">
+                                                    <figure><img src="images/ser3.png"></figure>
+                                                    <h3>MANICURE</h3>
+                                                    <p>Basic,French,Lotus,O3</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+
+                                <div class="container">
+                                    <div class="carousel-caption">
+                                        <div class="row">
+                                            <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12">
+                                                <div class="service_box">
+                                                    <figure><img src="images/ser1.png"></figure>
+                                                    <h3>WAXING</h3>
+                                                    <p>Full arm,legs,Under arms,Stomach,Full body</p>
+                                                </div>
+                                            </div>
+                                            
+                                            
                                             </div>
                                         </div>
                                     </div>
@@ -256,84 +321,7 @@
                 </div>
             </div>
             <!-- end service -->
-            <!-- pricing -->
-            <div class="pricing">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="ourheading">
-                                <h2>Pricing<strong class="white"> Table</strong></h2>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 mar_bottom">
-                            <div class="pricing_img">
-                                <figure><img src="images/vvv.png" alt="#" />
-                                </figure>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 pad_left">
-                            <div class="pricing_box">
-                                <div class="list">
-                                    <ul>
-                                        <li><span class="float-left">Haircuts</span><span class="float-right">$ 35</span></li>
-                                        <li><span class="float-left">Skin Fade</span><span class="float-right">$ 40</span></li>
-                                        <li><span class="float-left">Buzz Cut</span><span class="float-right">$ 30</span></li>
-                                        <li><span class="float-left">Classic Haircut</span><span class="float-right">$ 35</span></li>
-                                    </ul>
-                                    <ul>
-                                        <li><span class="float-left">Haircuts</span><span class="float-right">$ 35</span></li>
-                                        <li><span class="float-left">Stache Trim</span><span class="float-right">$ 35</span></li>
-                                        <li><span class="float-left">Beard Trim</span><span class="float-right">$ 35</span></li>
-                                        <li><span class="float-left">Colouring</span><span class="float-right">$ 50</span></li>
-                                    </ul>
-                                    <a href="#">Read more</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="opening">
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12">
-                                    <div class="ourheading">
-                                        <h2>Opening<strong class="white"> Times</strong></h2>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="opening_bg">
-                                <div class="row">
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                        <div class="times">
-                                            <ul>
-                                                <li><span>Monday</span><span class="float-right">9:00am       <strong class="bbbb">9:00pm</strong></span></li>
-                                                <li><span>Tuesday </span><span class="float-right">9:00am       <strong class="bbbb">9:00pm</strong></span></li>
-                                                <li><span>Wednesday</span><span class="float-right">9:00am      <strong class="bbbb">9:00pm</strong></span></li>
-
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                        <div class="times">
-                                            <ul>
-                                                <li><span>Thursday </span><span class="float-right">9:00am       <strong class="bbbb">9:00pm</strong></span></li>
-                                                <li><span>Friday</span><span class="float-right">9:00am       <strong class="bbbb">9:00pm</strong></span></li>
-                                                <li><span>Saturday</span><span class="float-right">9:00am        <strong class="bbbb">9:00pm</strong></span></li>
-                                                <li><span>Sunday</span><span class="float-right">Close</span> </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- end Pricing -->
-
-                </div>
+        </div>
 
                 <!-- our barbers -->
                 <!-- section -->
@@ -342,7 +330,7 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="ourheading">
-                                    <h2>Our<strong class="white"> Barbers</strong></h2>
+                                    <h2>Our<strong class="white"> Services</strong></h2>
                                 </div>
                             </div>
                         </div>
@@ -414,53 +402,7 @@
 
                 </section>
                 <!-- end our barbers -->
-                <!-- contact -->
-                <div id="contact" class="contact">
-                    <div class="container">
-                        <div class="row">
-                            <div class=" col-md-12">
-                                <div class="title">
-                                    <h2>Request  A<strong class="white"> Call  Back</strong></h2>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-
-                                <form class="main_form">
-                                    <div class="row">
-
-                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                            <input class="form-control" placeholder="Your Name" type="text" name="Your Name">
-                                        </div>
-                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                            <input class="form-control" placeholder="Phone Number" type="text" name="Email">
-                                        </div>
-                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                            <input class="form-control" placeholder="Email" type="text" name=" Email">
-                                        </div>
-                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                            <input class="form-control" placeholder="Date" type="date" name=" Date">
-                                        </div>
-                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                            <textarea class="textarea" placeholder="Message" type="text" name="Message"></textarea>
-                                        </div>
-                                        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
-                                            <button class="send">Send</button>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
-                                <div class="img-box">
-                                    <figure><img src="images/img.jpg" alt="img" /></figure>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- end contact -->
+                
                 <!-- footer -->
                 <fooetr>
                     <div class="footer">
@@ -468,25 +410,32 @@
                             <div class="row">
                                 <div class="col-md-12">
                                     <div class="footer_logo">
-                                        <a href="index.html"><img src="images/logo1.png" alt="logo" /></a>
+                                        <a href="index.html"><img src="images/logo.jpeg" alt="logo" /></a>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="address">
-                                        <h3>address</h3>
-                                        <p>
-                                            Address: 73 Canal Street, New York, NY
-                                            <br> Tel: +1 123 456 789
-                                            <br> Fax: +1 123 456 789
-                                            <br> Email: support@demo.com</p>
+                                        <ul>
+                                       <li><p><span style="padding: 25px;"><ion-icon name="location-outline" size="large"></ion-icon></span><p>10-50-54/1,opp:LIONS CLUB,
+                                            <br>   WALTAIR MAIN ROAD,RAMNAGAR,
+                                            <br>   BESIDE OMNI RK HOSPITAL
+                                            <br>   VISAKHAPATNAM-02 </p></p>
+                                       </li>
+                                        <li>
+                                        <p><span style="padding: 25px;"><ion-icon name="call-outline" size="large"></ion-icon></span><p>8297962656 <br>8297120666</p>
+                                        </p></li> 
+                                    
+                                        <li>
+                                        <p><span style="padding: 25px;"><ion-icon name="logo-facebook" size="large"></ion-icon></span> avenuehairandbeautyindia
+                                        </p> </li> </ul>   
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <ul class="lik">
 
-                                        <li> <img src="images/fb.png" alt="#" /></li>
-                                        <li> <img src="images/tw.png" alt="#" /></li>
-                                        <li> <img src="images/you.png" alt="#" /></li>
+                                        <li><ion-icon name="logo-facebook" size="large"></ion-icon></li>
+                                        <li><ion-icon name="logo-twitter" size="large"></ion-icon></li>
+                                        <li><ion-icon name="logo-youtube" size="large"></ion-icon></li>
 
                                     </ul>
 
