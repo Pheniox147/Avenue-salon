@@ -538,9 +538,11 @@
      border: #ff08a7 solid 1px;
 }
  .about .about_img figure {
-     margin: 0;
+    margin: 20px;
+    padding-top: 70px;
 }
  .about .about_img figure img {
+    border-radius: 100%;
     width: 100%;
 }
 /** end about **/
@@ -553,6 +555,7 @@
     padding-bottom: 50px;
 }
  .service .ourheading h2 {
+    font-size: 75px;
     padding-bottom: 25px;
 }
  .ourheading span {
@@ -695,7 +698,7 @@
     padding: 80px 0 90px 0;
 }
  .opening_bg {
-    background: #FF08A4;
+    background: white;
      padding: 59px 53px;
 }
  .times ul li {
@@ -705,7 +708,7 @@
     padding: 0px 40px;
 }
  .times ul li span {
-     color: #fff;
+     color: #000;
      font-size: 20px;
      font-weight: 500;
 }
@@ -722,7 +725,7 @@
 .upcoming-events-outer {
     padding: 0px 0 0px;
     margin-top: 0px;
-    background: url(/images/footbg.png) no-repeat;
+    background: #ff08a7 no-repeat;
     background-size: cover;
 }
 /** end pricing **/
